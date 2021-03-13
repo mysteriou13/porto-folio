@@ -2,7 +2,7 @@
 <html>
  <head>
 <meta charset = "utf-8">
-<meta name ="viexport"  content ="width=device-width, initial-scale=1">
+<meta name ="viewport"  content ="width=device-width, initial-scale=1">
 	  <link rel ="stylesheet" href = "./node_modules/bootstrap/dist/css/bootstrap.min.css">
           <script src ="./node_modules/vue/dist/vue.js" ></script>
 	  <script src = "./node_modules/vue-router/dist/vue-router.js">
@@ -15,8 +15,14 @@
 
 		<div id ="app" >
 
-			<router-link to ="/">home page</router-link>
-			<router-link to ="/projet">projet</router-link>
+			<div class = "d-flex justify-content-around bg-secondary">
+				<div>
+			<router-link to ="/"  class = "text-light">home page</router-link>
+			</div>
+		               	<div>
+				<router-link  class ="text-light" to ="/projet">projet</router-link>
+				    </div>
+		        </div>
 			<router-view></router-view>
 	       </div>
             <script src ="./index.js"></script>
