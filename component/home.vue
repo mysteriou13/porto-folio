@@ -1,4 +1,4 @@
 <template>
-	<div> template vue  </div>
+	<div> home vue </div>
 
 	</template>
