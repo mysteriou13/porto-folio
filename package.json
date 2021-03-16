@@ -13,6 +13,7 @@
     "express": "^4.17.1",
     "express-vue": "^5.16.0",
     "http-vue-loader": "^1.4.2",
+    "path": "^0.12.7",
     "vue-router": "^3.5.1",
     "vuejs": "^3.0.1"
   }
