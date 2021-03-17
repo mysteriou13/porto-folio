@@ -2,9 +2,9 @@
 	
 	<div> 
 
-      <div class="row" >
+      <div class="row row-cols-1 row-cols-md-2 g-4 " >
  
-   <div class="col-sm-4" >
+   <div class="col-sm-4   mb-3" >
      <div class="card" >
   <img src="./img/vecchionet.png" />
   <div class="card-body">
@@ -17,7 +17,7 @@
    
    </div>
 
-  <div class="col-sm-4">
+  <div class="col-sm-4  mb-3">
       <div class="card" >
   <img src="./img/boutique-furry.png">
   <div class="card-body">
@@ -28,9 +28,9 @@
  
   </div>
   </div>
-</div>
 
-	</div>
+
+      </div>
 
 
 </template>
